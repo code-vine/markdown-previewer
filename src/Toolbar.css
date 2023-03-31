@@ -1,0 +1,41 @@
+:root{
+    --toolbar-gradient:linear-gradient(lightblue , lightblue 80%, skyblue);
+}
+
+.toolBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:0 5px;
+    background: var(--toolbar-gradient);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 33vw;
+    font-weight: bold;
+    height: 35px;
+    padding:10px;
+    margin-bottom: 0;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.7);
+
+    
+}
+
+.toolBar-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.enlarger{
+    background-color: transparent;
+    border: none;
+}
+
+.enlarger:hover{
+    cursor: pointer;
+    color:ghostwhite;
+}
