@@ -1,5 +1,6 @@
 import './Editor.css';
 import Toolbar from './Toolbar'
+import React from 'react';
 
 class Editor extends React.Component{
     constructor(props){
