@@ -26,7 +26,7 @@ class Editor extends React.Component{
     }
     render(){
         return (
-            <div className="editor-wrap">
+            <div id="editor-wrap" className="editor-wrap">
                 <Toolbar title="Editor" Enlarge={this.enlarger} enlargerId="editorEnlarger"/>
                 <textarea id="editor" />
             </div>
