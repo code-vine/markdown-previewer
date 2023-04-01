@@ -1,0 +1,8 @@
+#preview{
+    width: var(--preview-width);
+    height:var(--preview-height);
+    min-height: var(--preview-height);
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius);
+}

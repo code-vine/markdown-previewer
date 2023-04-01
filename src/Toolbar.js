@@ -8,7 +8,7 @@ function Toolbar(props){
                 <p>{props.title}</p>
             </div>
             <div id='toolbar-expander'>
-                <button className='enlarger'><i className="bi bi-arrows-fullscreen"></i></button>
+                <button className='enlarger' onClick={props.Enlarge}><i className="bi bi-arrows-fullscreen"></i></button>
             </div>
         </div>
     );
