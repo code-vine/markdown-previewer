@@ -6,3 +6,7 @@
     box-shadow: var(--box-shadow);
     border-radius: var(--radius);
 }
+
+.preview-wrap{
+    margin-top: 20px;
+}

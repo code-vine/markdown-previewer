@@ -8,3 +8,7 @@
     resize: vertical;
     box-shadow: var(--box-shadow);
 }
+
+.editor-wrap{
+    margin-top: 20px;
+}

@@ -9,7 +9,7 @@ class Preview extends React.Component{
     }
     render(){
         return (
-            <div className='preview-wrap'>
+            <div id="preview-wrap" className='preview-wrap'>
                 <Toolbar title="Preview" />
                 <div id="preview">
                     
