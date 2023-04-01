@@ -5,8 +5,16 @@
     background-color: white;
     box-shadow: var(--box-shadow);
     border-radius: var(--radius);
+    padding:20px;
+    overflow-y: scroll;
 }
 
 .preview-wrap{
     margin-top: 20px;
 }
+
+ul,ol{
+    margin: 0 10px;
+}
+
+img{width:100%}

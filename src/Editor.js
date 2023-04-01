@@ -2,6 +2,7 @@ import './Editor.css';
 import Toolbar from './Toolbar'
 import React from 'react';
 
+
 class Editor extends React.Component{
     constructor(props){
         super(props);
@@ -9,8 +10,8 @@ class Editor extends React.Component{
     enlarger(e){
         e.preventDefault();
         let preview = document.getElementById("preview-wrap");
-        let editor = document.getElementById("editor");
         let editorEnlarger = document.getElementById("editorEnlarger");
+        let editor = document.getElementById("editor");
 
         if(preview.style.display === "none"){
             preview.style.display = "initial";
@@ -24,11 +25,13 @@ class Editor extends React.Component{
 
         }
     }
+    
+
     render(){
         return (
             <div id="editor-wrap" className="editor-wrap">
                 <Toolbar title="Editor" Enlarge={this.enlarger} enlargerId="editorEnlarger"/>
-                <textarea id="editor" />
+                <textarea onChange={this.props.onChange} id="editor"></textarea>
             </div>
         )
     }
